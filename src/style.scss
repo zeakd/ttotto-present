@@ -125,6 +125,92 @@
   }
 }
 
+@keyframes Tara {
+  0% {
+    cursor: grab;
+  }
+
+  5% {
+    cursor: grabbing;
+  }
+
+  10% {
+    cursor: grab;
+  }
+
+  15% {
+    cursor: grabbing;
+  }
+
+  20% {
+    cursor: grab;
+  }
+
+  25% {
+    cursor: grabbing;
+  }
+
+  30% {
+    cursor: grab;
+  }
+
+  35% {
+    cursor: grabbing;
+  }
+
+  40% {
+    cursor: grab;
+  }
+
+  45% {
+    cursor: grabbing;
+  }
+
+  50% {
+    cursor: grab;
+  }
+
+  55% {
+    cursor: grabbing;
+  }
+
+  60% {
+    cursor: grab;
+  }
+
+  65% {
+    cursor: grabbing;
+  }
+
+  70% {
+    cursor: grab;
+  }
+
+  75% {
+    cursor: grabbing;
+  }
+
+  80% {
+    cursor: grab;
+  }
+
+  85% {
+    cursor: grabbing;
+  }
+
+  90% {
+    cursor: grab;
+  }
+
+  95% {
+    cursor: grabbing;
+  }
+
+  100% {
+    cursor: pointer;
+  }
+}
+
 html, body, #root {
   margin: 0;
   padding: 0;
@@ -174,6 +260,14 @@ body {
 }
 
 #box {
+  cursor: pointer;
+  &.animated {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: Tara;
+  }
+  
+  user-select: none;
   top: 0;
   bottom: 0;
   left: 0;
