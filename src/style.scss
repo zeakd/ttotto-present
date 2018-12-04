@@ -70,7 +70,7 @@
     opacity: 0;
     z-index: 1;
     transform-origin: 100% 40%;
-    transform: rotate(160deg);
+    transform: rotate(160deg) scale(2.5, 2.5) rotateY(10deg);
     filter: blur(20px);
   }
 }
