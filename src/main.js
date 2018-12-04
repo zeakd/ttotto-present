@@ -2,6 +2,7 @@ import $ from 'jquery';
 import 'animate.css'
 
 const $box = $('#box');
+const $boxWrapper = $('#box-wrapper');
 const $ttotto = $('#ttotto');
 
 let opened = false;
@@ -9,12 +10,14 @@ let opened = false;
 function reset() {
   $ttotto.removeClass();
   $box.removeClass();
+  $boxWrapper.removeClass();
   $('.particle').removeClass().addClass('particle')
 }
 
 function boxOpen() {
   $ttotto.addClass('fadeInUp animated');
   $box.addClass('tada animated')
+  $boxWrapper.addClass('animated');
   popParticles();
 }
 

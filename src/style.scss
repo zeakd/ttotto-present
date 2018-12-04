@@ -259,14 +259,16 @@ body {
   color: RoyalBlue;
 }
 
-#box {
+#box-wrapper {
   cursor: pointer;
   &.animated {
     animation-duration: 1.5s;
     animation-fill-mode: both;
     animation-name: Tara;
   }
-  
+}
+
+#box {
   user-select: none;
   top: 0;
   bottom: 0;
