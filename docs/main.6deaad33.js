@@ -11,4 +11,4 @@ var e,t=arguments[3],n=require("process");!function(e,t){"use strict";"object"==
 },{}],"epB2":[function(require,module,exports) {
 "use strict";var a=e(require("jquery"));function e(a){return a&&a.__esModule?a:{default:a}}require("animate.css");var t=(0,a.default)("#box"),n=(0,a.default)("#ttotto"),l=!1;function r(){n.removeClass(),t.removeClass(),(0,a.default)(".particle").removeClass().addClass("particle")}function d(){n.addClass("fadeInUp animated"),t.addClass("tada animated"),i()}var o=["red","yellow","aqua","GreenYellow","Lime","DeepPink","Aquamarine"];function u(e){var t=o[Math.floor(Math.random()*o.length)];(0,a.default)(e).css("background-color",t)}function i(){(0,a.default)(".particle").each(function(e,t){(0,a.default)(t).addClass("animated"),u(t)})}t.on("click",function(){l?r():d(),l=!l});
 },{"jquery":"juYr","animate.css":"TOx8"}]},{},["epB2"], null)
-//# sourceMappingURL=/main.6deaad33.map
+//# sourceMappingURL=/ttotto-present/main.6deaad33.map
